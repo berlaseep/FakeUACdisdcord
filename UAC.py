@@ -7,7 +7,7 @@ import requests
 ghx35 = None
 
 # URL del webhook de Discord
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1442578802424156254/-DfVt1_8yqkO7YC8701WMibbfuNp4xxU9USgPsEswf_rX1jCQ6ayhMp6NUDOcGMKaGgN"
+DISCORD_WEBHOOK_URL = "webhook here"
 
 def send_to_discord(message):
     try:
@@ -185,4 +185,5 @@ button_no.place(x=325, y=335)
 root.mainloop()
 
 # Después de cerrar la ventana
+
 print(f"Valor final de ghx35: {ghx35}")
